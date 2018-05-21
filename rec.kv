@@ -1,0 +1,29 @@
+<Root>:
+    ball:elli
+    rect:recta
+
+	
+    Test:
+    	id:recta
+        pos:300,300
+        size:50,50
+    Ell:
+    	id:elli
+        pos:200,300
+        size:50,50
+        
+<Test>:   
+    canvas:
+    	Color:
+    	    rgba:1,0,0,1
+        Rectangle:
+            pos:self.pos
+            size:self.size
+<Ell>:
+	canvas:
+        Color:
+        	rgba:0,0,1,1
+        Ellipse:
+        	pos:self.pos
+        	size:self.size
+
